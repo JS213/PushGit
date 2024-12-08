@@ -186,6 +186,21 @@ include("config.php");
                                 <div id="collapseThree" class="collapse p-4" aria-labelledby="headingThree" data-parent="#accordionExample">
                                     <img src="admin/property/<?php echo $row['27'];?>" alt="Not Available"> </div>
                             </div>
+                            <h5 class="mt-5 mb-4 text-secondary double-down-line-left position-relative">Location Map</h5>
+                                <div class="map-container" style="width: 100%; height: 400px;">
+                                    <?php
+                                    $location = $row['14']; 
+                                    ?>
+                                    <iframe 
+                                        width="100%" 
+                                        height="100%" 
+                                        frameborder="0" 
+                                        style="border:0" 
+                                        src="https://www.google.com/maps?q=<?php echo urlencode($location); ?>&output=embed" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+
 
                             <h5 class="mt-5 mb-4 text-secondary double-down-line-left position-relative">Contact Agent</h5>
                             <div class="agent-contact pt-60">
@@ -216,7 +231,9 @@ include("config.php");
                         </div>
                     </div>
 					
-					<?php } ?>
+                     <?php } ?>
+                    
+
 					
                     <div class="col-lg-4">
                         <!-- <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4 mt-md-50">Send Message</h4>
