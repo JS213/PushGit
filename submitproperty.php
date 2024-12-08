@@ -96,7 +96,7 @@ values('$title','$content','$ptype','$bhk','$stype','$bed','$bath','$balc','$kit
 
 <!-- Meta Tags -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/logo/4real_state.png">
 
 <!--	Fonts
 	========================================================-->
