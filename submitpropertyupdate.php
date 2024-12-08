@@ -121,7 +121,7 @@ if(isset($_POST['add']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Update Property</title>
 </head>
 <body>
 

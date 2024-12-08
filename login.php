@@ -62,7 +62,7 @@ if(isset($_REQUEST['login']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Login</title>
 </head>
 <body>
 
