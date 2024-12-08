@@ -110,22 +110,19 @@ if(isset($_POST['send']))
                                 <li class="d-flex mb-4"> <i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Address</h5>
-                                        <span class="text-white">27 Ingram Street, Dayton</span> <br>
-										<span class="text-white">27 Ingram Street, Dayton</span>
+                                        <span class="text-white">123 Real Estate Ave, City, State 12345</span>
 										</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Call Us</h5>
-                                        <span class="d-table text-white">+1 234-567-8910</span>
-										<span class="text-white">+1 243-765-4321 </span>
+                                        <span class="d-table text-white">(123) 456-7890</span>
 									</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
-                                        <h5 class="text-white">Email Adderss</h5>
-										<span class="d-table text-white">helpline@realestatest.com</span>
-										<span class="text-white">helpline@realestatest.com</span>
+                                        <h5 class="text-white">Email Address</h5>
+										<span class="d-table text-white">info@4realestate.com</span>
 										</div>
                                 </li>
                             </ul>
@@ -163,7 +160,7 @@ if(isset($_POST['send']))
 												</div>
 											</div>
 										</div>
-										<button type="submit" value="send message" name="send" class="btn btn-success">Send Message</button>
+										<button type="submit" value="send message" name="send" class="btn btn-info w-100" style="border-radius: 12px;">Send Message</button>
 									</div>
 								</form>
 							</div>

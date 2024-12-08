@@ -124,7 +124,7 @@ if(isset($_REQUEST['login']))
 										<input type="password" name="pass"  class="form-control" placeholder="Your Password">
 									</div>
 									
-										<button class="btn btn-success" name="login" value="Login" type="submit">Login</button>
+									<button class="btn btn-info w-100" name="login" value="Login" type="submit" style="border-radius: 12px; ">Login</button>
 									
 								</form>
 								

@@ -2,13 +2,13 @@
 Theme Color All Codes Variable
 ==================================*/
 :root {
-	 --theme-ordinary-color: #74777b;  /* theme ordinay font color ok*/
+	 --theme-ordinary-color: #7b7a74;  /* theme ordinay font color ok*/
 }
 :root {
-	 --theme-primary-color: #17c788;  /* theme primary color ok*/
+	 --theme-primary-color: #17a2b8;  /* theme primary color ok*/
 }
 :root {
-	 --theme-secondary-color: #0d1432;  /* theme secondary color ok*/
+	 --theme-secondary-color: black;  /* theme secondary color ok*/
 }
 :root {
 	 --theme-white-color: #fff;  /* theme white font color ok*/
@@ -29,7 +29,7 @@ Theme Color All Codes Variable
 	 --text-light-color: #a3a7af;  /* Light text color to use in dark area */
 }
 :root {
-	 --theme-primary-opacity-color: rgba(11, 191, 141, .8);  /* theme secondary color */
+	 --theme-primary-opacity-color: #17a2b8;  /* theme secondary color */
 }
 :root {
 	 --theme-secondary-opacity-color: rgba(13,20,50,0.7);  /* theme secondary color ok*/
@@ -50,5 +50,22 @@ Font Variable
 	 --theme-highlight-font: 'Comfortaa', cursive;  /* Font used in title or special area ok*/
 }
 
+/*
+Custom Colors
+*/
 
+.custom-icon-color {
+    color: #002768;  /* Replace with your desired color */
+}
 
+.custom-icon-color {
+    color: #dc3545;  /* Replace with your desired color */
+}
+
+.custom-bg-red-color {
+    background-color: #dc3545;  /* Replace with your desired color */
+}
+
+.custom-blue1-color {
+    color: #17a2b8;  /* Replace with your desired color */
+}
