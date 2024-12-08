@@ -64,15 +64,16 @@ include("config.php");
                             <div class="col-md-6">
                                 <div class="featured-thumb hover-zoomer mb-4">
                                     <div class="overlay-black overflow-hidden position-relative">
-                                        <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
+                                        <img src="admin/property/<?php echo $row['18'];?>" alt="pimage" style="height: 300px; width: auto;">
                                         
                                         <div class="sale bg-info text-white">For <?php echo $row['5'];?></div>
                                         <div class="price text-primary text-capitalize">₱<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
-                                        <div class="status bg-success text-white text-capitalize">
-                                            <?php echo $row['status']; ?> 
-                                        </div>
+                                        
                                     </div>
                                     <div class="featured-thumb-data shadow-one">
+                                    <div class="status bg-success text-white text-capitalize" style="text-align: center;">
+                                            <?php echo $row['status']; ?> 
+                                        </div>
                                         <div class="p-4">
                                             <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
                                             <span class="location text-capitalize"><i class="fas fa-map-marker-alt custom-icon-color"></i> <?php echo $row['14'];?></span> </div>
