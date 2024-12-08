@@ -11,7 +11,7 @@
 		if(!empty($user) && !empty($pass))
 		{
 			$query = "SELECT auser, apass FROM admin WHERE auser='$user' AND apass='$pass'";
-			$result = mysqli_query($con,$query)or die(mysqli_error());
+			$result = mysqli_query($con,$query)or die(mysqli_error($con));
 			$num_row = mysqli_num_rows($result);
 			$row=mysqli_fetch_array($result);
 			if( $num_row ==1 )
@@ -49,10 +49,7 @@
 		<!-- Main CSS -->
         <link rel="stylesheet" href="assets/css/style.css">
 		
-		<!--[if lt IE 9]>
-			<script src="assets/js/html5shiv.min.js"></script>
-			<script src="assets/js/respond.min.js"></script>
-		<![endif]-->
+		
 		
     </head>
     <body>

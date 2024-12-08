@@ -119,7 +119,8 @@ include("config.php");
                         <div class="row mb-4">
                             <div class="col-md-6">
                                 <div class="bg-success d-table px-3 py-2 rounded text-white text-capitalize">For <?php echo $row['5'];?></div>
-                                <h5 class="mt-2 text-secondary text-capitalize"><?php echo $row['1'];?></h5>
+                                <h5 class="mt-2 text-secondary text-capitalize">*<?php echo $row['24'];?></h5>
+                                <h2 class="mt-2 text-secondary text-capitalize"><?php echo $row['1'];?></h2>
                                 <span class="mb-sm-20 d-block text-capitalize"><i class="fas fa-map-marker-alt text-success font-12"></i> &nbsp;<?php echo $row['14'];?></span>
 							</div>
                             <div class="col-md-6">

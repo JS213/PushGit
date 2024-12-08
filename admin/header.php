@@ -104,7 +104,7 @@ if(!isset($_SESSION['auser']))
 									<li><a href="adminlist.php"> Admin </a></li>
 									<li><a href="userlist.php"> Users </a></li>
 									<li><a href="useragent.php"> Agent </a></li>
-									<li><a href="userbuilder.php"> Builder </a></li>
+									<!-- <li><a href="userbuilder.php"> Builder </a></li> -->
 								</ul>
 							</li>
 

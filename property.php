@@ -98,23 +98,42 @@ include("config.php");
 									
                             <div class="col-md-6">
                                 <div class="featured-thumb hover-zoomer mb-4">
-                                    <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
+                                    <div class="overlay-black overflow-hidden position-relative">
+                                        <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
                                         
                                         <div class="sale bg-success text-white">For <?php echo $row['5'];?></div>
-                                        <div class="price text-primary text-capitalize">$<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
-                                        
-                                    </div><!-- Dev -->
+                                        <div class="price text-primary text-capitalize">
+                                            $<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span>
+                                        </div>
+
+                                        <!-- Display the status of the property -->
+                                        <div class="status bg-success text-white text-capitalize">
+                                            <?php echo $row['status']; ?> <!-- Display the status here -->
+                                        </div>
+
+                                    </div>
                                     <div class="featured-thumb-data shadow-one">
                                         <div class="p-4">
-                                            <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
-                                            <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-success"></i> <?php echo $row['14'];?></span> </div>
+                                            <h5 class="text-secondary hover-text-success mb-2 text-capitalize">
+                                                <a href="propertydetail.php?pid=<?php echo $row['0'];?>">
+                                                    <?php echo $row['1'];?>
+                                                </a>
+                                            </h5>
+                                            <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-success"></i> <?php echo $row['14'];?></span>
+                                        </div>
                                         <div class="px-4 pb-4 d-inline-block w-100">
-                                            <div class="float-left text-capitalize"><i class="fas fa-user text-success mr-1"></i>By : <?php echo $row['uname'];?></div>
-                                            <div class="float-right"><i class="far fa-calendar-alt text-success mr-1"></i> <?php echo date('d-m-Y', strtotime($row['date']));?></div>
+                                            <div class="float-left text-capitalize">
+                                                <i class="fas fa-user text-success mr-1"></i>By : <?php echo $row['uname'];?>
+                                            </div>
+                                            <div class="float-right">
+                                                <i class="far fa-calendar-alt text-success mr-1"></i> 
+                                                <?php echo date('d-m-Y', strtotime($row['date']));?>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <?php } ?><!-- Dev -->
                             
 
