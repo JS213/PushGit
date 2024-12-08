@@ -38,7 +38,7 @@ include("config.php");
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Home</title>
 </head>
 <body>
 
@@ -384,7 +384,7 @@ include("config.php");
 													{
 										?>
 										<div class="item">
-											<div class="p-4 bg-info position-relative">
+											<div class="p-4 bg-info position-relative" style="border-radius: 12px;">
 												<p class="text-white"><i class="fas fa-quote-left mr-2 text-white"></i><?php echo $row['2']; ?>. <i class="fas fa-quote-right mr-2 text-white"></i></p>
 											</div>
 											<div class="p-2 mt-2">
@@ -409,7 +409,7 @@ include("config.php");
         
         
         <!-- Scroll to top --> 
-        <a href="#" class="bg-info text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
+        <a href="#" class="bg-info text-white hover-text-secondary" id="scroll" style="border-radius: 12px;"><i class="fas fa-angle-up"></i></a> 
         <!-- End Scroll To top --> 
     </div>
 </div>

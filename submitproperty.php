@@ -118,7 +118,7 @@ values('$title','$content','$ptype','$bhk','$stype','$bed','$bath','$balc','$kit
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Submit Property</title>
 </head>
 <body>
 

@@ -41,7 +41,7 @@ include("config.php");
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Properties</title>
 </head>
 <body>
 

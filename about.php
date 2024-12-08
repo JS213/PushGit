@@ -37,7 +37,7 @@ include("config.php");
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!-- Title -->
-<title>Real Estate PHP</title>
+<title>4Real State - About</title>
 </head>
 <body>
 

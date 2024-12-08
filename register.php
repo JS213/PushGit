@@ -77,7 +77,7 @@ if(isset($_REQUEST['reg']))
 
 <!--	Title
 	=========================================================-->
-<title>Real Estate PHP</title>
+<title>4Real State - Register</title>
 </head>
 <body>
 
@@ -166,7 +166,7 @@ if(isset($_REQUEST['reg']))
 										<input class="form-control" name="uimage" type="file">
 									</div>
 									
-									<button class="btn btn-success" name="reg" value="Register" type="submit">Register</button>
+									<button class="btn btn-info w-100" name="reg" value="Register" type="submit" style="border-radius: 12px;">Register</button>
 									
 								</form>
 								
