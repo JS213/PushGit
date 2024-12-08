@@ -93,17 +93,19 @@ include("config.php");
             </div>
         </div>
 
-        <!-- Footer Start -->
-        <?php include("include/footer.php"); ?>
-        <!-- Footer End -->
+       
 
         <!-- Scroll to top -->
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
     </div>
-    <!-- Wrapper End -->
-
-    <!-- Modal -->
     
+
+   
+     <!-- Footer Start -->
+     <?php include("include/footer.php"); ?>
+        
+
+        <!-- Modal -->
         <div class="modal fade" id="agentModal" tabindex="-1" aria-labelledby="agentModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
