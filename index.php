@@ -67,6 +67,7 @@ include("config.php");
                             <h1 class="mb-0"><span class="text-info">Let us</span><br>
                             Guide you Home</h1>
                             <p>Discover the most suitable property for your needs.</p>
+                            <button class="btn btn-info" name="login" value="Login" onclick="window.location.href='property.php';" style="border-radius: 12px;">Buy Properties</button>
                             <!-- Dev 
                             <form method="post" action="propertygrid.php">
                                 <div class="row">
@@ -120,33 +121,20 @@ include("config.php");
                         <h2 class="text-secondary double-down-line text-center mb-5">What We Do</h2></div>
                 </div>
                 <div class="text-box-one">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-lg-3 col-md-6">
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-rent text-info flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Selling Service</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
+                                <p>Our Selling Service offers you a wide selection of houses to choose from in our extensive list of properties.</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
-								<i class="flaticon-for-rent text-info flat-medium" aria-hidden="true"></i>
-                                <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Rental Service</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
-                            </div>
-                        </div>
+
                         <div class="col-lg-3 col-md-6">
                             <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
 								<i class="flaticon-list text-info flat-medium" aria-hidden="true"></i>
                                 <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Property Listing</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="p-4 text-center hover-bg-white hover-shadow rounded mb-4 transation-3s"> 
-								<i class="flaticon-diagram text-info flat-medium" aria-hidden="true"></i>
-                                <h5 class="text-secondary hover-text-success py-3 m-0"><a href="#">Legal Investment</a></h5>
-                                <p>This is a dummy text for filling out spaces. Just some random words...</p>
+                                <p>Our Property Listing helps you list and sell your property quickly and efficiently with expert support throughout the process.</p>
                             </div>
                         </div>
                     </div>
@@ -155,72 +143,6 @@ include("config.php");
         </div>
 		<!-----  Our Services  ---->
 		
-        <!--	Recent Properties  -->
-        <div class="full-row">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="text-secondary double-down-line text-center mb-4">Recent Property</h2>
-                    </div>
-                    <!--- <div class="col-md-6">
-                        <ul class="nav property-btn float-right" id="pills-tab" role="tablist">
-                            <li class="nav-item"> <a class="nav-link py-3 active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">New</a> </li>
-                            <li class="nav-item"> <a class="nav-link py-3" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</a> </li>
-                            <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Top Sale</a> </li>
-                            <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
-                        </ul>
-                    </div> --->
-                    <div class="col-md-12">
-                        <div class="tab-content mt-4" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
-                                <div class="row">
-								
-									<?php $query=mysqli_query($con,"SELECT property.*, user.uname,user.utype,user.uimage FROM `property`,`user` WHERE property.uid=user.uid ORDER BY date DESC LIMIT 9");
-										while($row=mysqli_fetch_array($query))
-										{
-									?>
-								
-                                    <div class="col-md-6 col-lg-4">
-                                        <div class="featured-thumb hover-zoomer mb-4">
-                                            <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
-                                                <div class="featured bg-danger text-white">New</div>
-                                                <div class="sale bg-info text-white text-capitalize">For <?php echo $row['5'];?></div>
-                                                <div class="price text-primary"><b>₱<?php echo $row['13'];?> </b><span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
-                                            </div>
-                                            <div class="featured-thumb-data shadow-one">
-                                                <div class="p-3">
-                                                    <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
-                                                    <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-danger"></i> <?php echo $row['14'];?></span> </div>
-                                                <div class="bg-gray quantity px-4 pt-4">
-                                                    <ul>
-                                                        <li><span><?php echo $row['12'];?></span> Sqft</li>
-                                                        <li><span><?php echo $row['6'];?></span> Beds</li>
-                                                        <li><span><?php echo $row['7'];?></span> Baths</li>
-                                                        <li><span><?php echo $row['9'];?></span> Kitchen</li>
-                                                        <li><span><?php echo $row['8'];?></span> Balcony</li>
-                                                        
-                                                    </ul>
-                                                </div>
-                                                <div class="p-4 d-inline-block w-100">
-                                                    <div class="float-left text-capitalize"><i class="fas fa-user text-info mr-1"></i>By : <?php echo $row['uname'];?></div>
-                                                    <div class="float-right"><i class="far fa-calendar-alt text-info mr-1"></i> <?php echo date('d-m-Y', strtotime($row['date']));?></div> 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-									<?php } ?>
-
-                                </div>
-                            </div>
-                            
-                            
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-		<!--	Recent Properties  -->
         
         <!--	Why Choose Us -->
         <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/01.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
@@ -233,22 +155,22 @@ include("config.php");
                                 <li class="mb-4 text-white d-flex"> 
 									<i class="flaticon-reward flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
 									<div class="pl-2">
-										<h5 class="mb-3">Top Rated</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
+										<h5 class="mb-3">BEST PRICES</h5>
+										<p>Discover properties that offer exceptional value for your budget. Whether you're looking for a cozy apartment or a spacious family home, our curated listings ensure competitive pricing without compromising on quality. Let us help you find your dream home at a price you’ll love.</p>
+									</div>
+                                </li>
+                                <li class="mb-4 text-white d-flex"> 
+									<i class="flaticon-diagram flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
+									<div class="pl-2">
+										<h5 class="mb-3">BEST INTEREST RATE ON MARKET</h5>
+										<p>Secure the most attractive mortgage rates in the market. We collaborate with trusted financial institutions to provide you with the best financing options. From flexible repayment terms to low-interest rates, we make homeownership more accessible and affordable for you.</p>
 									</div>
                                 </li>
                                 <li class="mb-4 text-white d-flex"> 
 									<i class="flaticon-real-estate flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
 									<div class="pl-2">
-										<h5 class="mb-3">Experience Quality</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
-									</div>
-                                </li>
-                                <li class="mb-4 text-white d-flex"> 
-									<i class="flaticon-seller flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
-									<div class="pl-2">
-										<h5 class="mb-3">Experienced Agents</h5>
-										<p>This is a dummy text for filling out spaces. This is just a dummy text for filling out blank spaces.</p>
+										<h5 class="mb-3">BEST LOCATION</h5>
+										<p>Location matters and we’ve got you covered. Explore prime neighborhoods that suit your lifestyle, with easy access to schools, shopping, and transportation. Whether you’re seeking a peaceful retreat or a bustling urban setting, we’ll guide you to the perfect spot to call home.</p>
 									</div>
                                 </li>
                             </ul>
@@ -264,7 +186,7 @@ include("config.php");
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 class="text-secondary double-down-line text-center mb-5">How It Work</h2>
+                        <h2 class="text-secondary double-down-line text-center mb-5">How it Works</h2>
                         </div>
                 </div>
                 <div class="row">
@@ -366,7 +288,6 @@ include("config.php");
             </div>
         </div>
         
-		
 		<!--	Testonomial -->
 		<div class="full-row">
             <div class="container">
@@ -374,7 +295,7 @@ include("config.php");
 					<div class="col-lg-12">
 						<div class="content-sidebar p-4">
 							<div class="mb-3 col-lg-12">
-								<h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Testimonial</h4>
+								<h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Testimonials</h4>
 									<div class="recent-review owl-carousel owl-dots-gray owl-dots-hover-success">
 									
 										<?php
@@ -402,6 +323,73 @@ include("config.php");
 		</div>
 		<!--	Testonomial -->
 		
+        
+        <!--	Recent Properties  -->
+        <div class="full-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-secondary double-down-line text-center mb-0">Recent Property</h2>
+                    </div>
+                    <!--- <div class="col-md-6">
+                        <ul class="nav property-btn float-right" id="pills-tab" role="tablist">
+                            <li class="nav-item"> <a class="nav-link py-3 active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">New</a> </li>
+                            <li class="nav-item"> <a class="nav-link py-3" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</a> </li>
+                            <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab2" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Top Sale</a> </li>
+                            <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
+                        </ul>
+                    </div> --->
+                    <div class="col-md-12">
+                        <div class="tab-content mt-4" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
+                                <div class="row">
+								
+									<?php $query=mysqli_query($con,"SELECT property.*, user.uname,user.utype,user.uimage FROM `property`,`user` WHERE property.uid=user.uid ORDER BY date DESC LIMIT 9");
+										while($row=mysqli_fetch_array($query))
+										{
+									?>
+								
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="featured-thumb hover-zoomer mb-4">
+                                            <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
+                                                <div class="featured bg-danger text-white">New</div>
+                                                <div class="sale bg-info text-white text-capitalize">For <?php echo $row['5'];?></div>
+                                                <div class="price text-primary"><b>₱<?php echo $row['13'];?> </b><span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
+                                            </div>
+                                            <div class="featured-thumb-data shadow-one">
+                                                <div class="p-3">
+                                                    <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
+                                                    <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-danger"></i> <?php echo $row['14'];?></span> </div>
+                                                <div class="bg-gray quantity px-4 pt-4">
+                                                    <ul>
+                                                        <li><span><?php echo $row['12'];?></span> Sqft</li>
+                                                        <li><span><?php echo $row['6'];?></span> Beds</li>
+                                                        <li><span><?php echo $row['7'];?></span> Baths</li>
+                                                        <li><span><?php echo $row['9'];?></span> Kitchen</li>
+                                                        <li><span><?php echo $row['8'];?></span> Balcony</li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                                <div class="p-4 d-inline-block w-100">
+                                                    <div class="float-left text-capitalize"><i class="fas fa-user text-info mr-1"></i>By : <?php echo $row['uname'];?></div>
+                                                    <div class="float-right"><i class="far fa-calendar-alt text-info mr-1"></i> <?php echo date('d-m-Y', strtotime($row['date']));?></div> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									<?php } ?>
+
+                                </div>
+                            </div>
+                            
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!--	Recent Properties  -->
 		
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
