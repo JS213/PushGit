@@ -361,12 +361,16 @@ values('$title','$content','$ptype','$bhk','$stype','$bed','$bath','$balc','$kit
 													</div>
 													<div class="col-md-4">
 														<ul>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Type : </span>Apartment</li>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Security : </span>Yes</li>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Dining Capacity : </span>10 People</li>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">Church/Temple  : </span>No</li>
+														
 														</ul>
 													</div>
 													<div class="col-md-4">
 														<ul>
+														<li class="mb-3"><span class="text-secondary font-weight-bold">3rd Party : </span>No</li>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Elevator : </span>Yes</li>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">CCTV : </span>Yes</li>
 														<li class="mb-3"><span class="text-secondary font-weight-bold">Water Supply : </span>Ground Water / Tank</li>

@@ -59,7 +59,7 @@ include("config.php");
         <!--	Header end  -->
 		
         <!--	Banner Start   -->
-        <div class="overlay-black w-100 slider-banner1 position-relative" style="background-image: url('images/banner/rshmpg.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="overlay-black w-100 slider-banner1 position-relative" style="background-image: url('images/banner/house_1.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-lg-12">
@@ -145,7 +145,7 @@ include("config.php");
 		
         
         <!--	Why Choose Us -->
-        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/01.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/banner/house_2.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
@@ -153,21 +153,21 @@ include("config.php");
                             <h3 class="pb-4 mb-3 text-white">Why Choose Us</h3>
                             <ul>
                                 <li class="mb-4 text-white d-flex"> 
-									<i class="flaticon-reward flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
+									<i class="flaticon-reward flat-medium float-left d-table mr-4 text-info" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">BEST PRICES</h5>
 										<p>Discover properties that offer exceptional value for your budget. Whether you're looking for a cozy apartment or a spacious family home, our curated listings ensure competitive pricing without compromising on quality. Let us help you find your dream home at a price you’ll love.</p>
 									</div>
                                 </li>
                                 <li class="mb-4 text-white d-flex"> 
-									<i class="flaticon-diagram flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
+									<i class="flaticon-diagram flat-medium float-left d-table mr-4 text-info" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">BEST INTEREST RATE ON MARKET</h5>
 										<p>Secure the most attractive mortgage rates in the market. We collaborate with trusted financial institutions to provide you with the best financing options. From flexible repayment terms to low-interest rates, we make homeownership more accessible and affordable for you.</p>
 									</div>
                                 </li>
                                 <li class="mb-4 text-white d-flex"> 
-									<i class="flaticon-real-estate flat-medium float-left d-table mr-4 custom-icon-color" aria-hidden="true"></i>
+									<i class="flaticon-real-estate flat-medium float-left d-table mr-4 text-info" aria-hidden="true"></i>
 									<div class="pl-2">
 										<h5 class="mb-3">BEST LOCATION</h5>
 										<p>Location matters and we’ve got you covered. Explore prime neighborhoods that suit your lifestyle, with easy access to schools, shopping, and transportation. Whether you’re seeking a peaceful retreat or a bustling urban setting, we’ll guide you to the perfect spot to call home.</p>
