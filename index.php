@@ -170,76 +170,7 @@ include("config.php");
                 </div>
             </div>
         </div>
-        
         <!--	How It Work -->
-        
-        <!--	Achievement
-        ============================================================-->
-        <div class="full-row overlay-secondary" style="background-image: url('images/breadcromb.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
-            <div class="container">
-                <div class="fact-counter">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="count wow text-center  mb-sm-50" data-wow-duration="300ms"> <i class="flaticon-house flat-large text-white" aria-hidden="true"></i>
-								<?php
-										$query=mysqli_query($con,"SELECT count(pid) FROM property");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                <div class="count-num text-info my-4" data-speed="3000" data-stop="<?php 
-												$total = $row[0];
-												echo $total;?>">0</div>
-								<?php } ?>
-                                <div class="text-white h5">Property Available</div>
-                            </div>
-                        </div>
-						<div class="col-md-3">
-                            <div class="count wow text-center  mb-sm-50" data-wow-duration="300ms"> <i class="flaticon-house flat-large text-white" aria-hidden="true"></i>
-								<?php
-										$query=mysqli_query($con,"SELECT count(pid) FROM property where stype='sale'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                <div class="count-num text-info my-4" data-speed="3000" data-stop="<?php 
-												$total = $row[0];
-												echo $total;?>">0</div>
-								<?php } ?>
-                                <div class="text-white h5">Sale Property Available</div>
-                            </div>
-                        </div>
-						<div class="col-md-3">
-                            <div class="count wow text-center  mb-sm-50" data-wow-duration="300ms"> <i class="flaticon-house flat-large text-white" aria-hidden="true"></i>
-								<?php
-										$query=mysqli_query($con,"SELECT count(pid) FROM property where stype='rent'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                <div class="count-num text-info my-4" data-speed="3000" data-stop="<?php 
-												$total = $row[0];
-												echo $total;?>">0</div>
-								<?php } ?>
-                                <div class="text-white h5">Rent Property Available</div>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="count wow text-center  mb-sm-50" data-wow-duration="300ms"> <i class="flaticon-man flat-large text-white" aria-hidden="true"></i>
-                                <?php
-										$query=mysqli_query($con,"SELECT count(uid) FROM user");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                <div class="count-num text-info my-4" data-speed="3000" data-stop="<?php 
-												$total = $row[0];
-												echo $total;?>">0</div>
-								<?php } ?>
-                                <div class="text-white h5">Registered Users</div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
         
 		<!--	Testonomial -->
 		<div class="full-row">
@@ -297,7 +228,7 @@ include("config.php");
 								
                                     <div class="col-md-6 col-lg-4">
                                         <div class="featured-thumb hover-zoomer mb-4">
-                                            <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
+                                            <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage" style="height: 300px; width: auto;">
                                                 <div class="featured bg-danger text-white">New</div>
                                                 <div class="sale bg-info text-white text-capitalize">For <?php echo $row['5'];?></div>
                                                 <div class="price text-primary"><b>₱<?php echo $row['13'];?> </b><span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
