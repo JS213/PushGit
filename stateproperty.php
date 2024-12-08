@@ -5,7 +5,7 @@ session_start();
 include("config.php");
 ///code
 								
-?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+?><!-- Dev -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ include("config.php");
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <!--	Css Link
 	========================================================-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -102,7 +102,7 @@ include("config.php");
                             <div class="col-md-6">
                                 <div class="featured-thumb hover-zoomer mb-4">
                                     <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
-                                        <!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                        <!-- Dev -->
                                         <div class="sale bg-success text-white">For <?php echo $row['5'];?></div>
                                         <div class="price text-primary text-capitalize">$<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
                                         
@@ -121,7 +121,7 @@ include("config.php");
                             <?php } ?>
                             
 
-                            <!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            <!-- Dev -->
                             
                         <!--    <div class="col-md-12">
                                 <nav aria-label="Page navigation">

@@ -114,7 +114,7 @@ if(isset($_POST['add']))
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/login.css">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+
 <!--	Title
 	=========================================================-->
 <title>Real Estate PHP</title>
@@ -182,7 +182,7 @@ if(isset($_POST['add']))
 													<div class="col-lg-9">
 														<input type="text" class="form-control" name="title" required placeholder="Enter Title">
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+												</div><!-- Dev -->
 												<div class="form-group row">
 													<label class="col-lg-2 col-form-label">Content</label>
 													<div class="col-lg-9">
@@ -215,7 +215,7 @@ if(isset($_POST['add']))
 															<option value="sale">Sale</option>
 														</select>
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+												</div><!-- Dev -->
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Bathroom</label>
 													<div class="col-lg-9">
@@ -252,7 +252,7 @@ if(isset($_POST['add']))
 													<div class="col-lg-9">
 														<input type="text" class="form-control" name="bed" required placeholder="Enter Bedroom  (only no 1 to 10)">
 													</div>
-												</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+												</div><!-- Dev -->
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Balcony</label>
 													<div class="col-lg-9">
@@ -266,7 +266,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- Dev -->
 										</div>
 										<h5 class="text-secondary">Price & Location</h5><hr>
 										<div class="row">
@@ -302,7 +302,7 @@ if(isset($_POST['add']))
 														<input type="text" class="form-control" name="state" required placeholder="Enter State">
 													</div>
 												</div>
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- Dev -->
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Total Floor</label>
@@ -340,7 +340,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- Dev -->
 										</div>
 										
 										<div class="form-group row">
@@ -377,7 +377,7 @@ if(isset($_POST['add']))
 													</div>
 												<!---feature area end---->
 											</textarea>
-											</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+											</div><!-- Dev -->
 										</div>
 												
 										<h5 class="text-secondary">Image & Status</h5><hr>
@@ -416,7 +416,7 @@ if(isset($_POST['add']))
 													<label class="col-lg-3 col-form-label">Basement Floor Plan Image</label>
 													<div class="col-lg-9">
 														<input class="form-control" name="fimage1" type="file">
-													</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+													</div><!-- Dev -->
 												</div>
 											</div>
 											<div class="col-xl-6">
@@ -451,7 +451,7 @@ if(isset($_POST['add']))
 
 										<hr>
 
-										<div class="row"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+										<div class="row"><!-- Dev -->
 											<div class="col-md-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label"><b>Is Featured?</b></label>
@@ -487,7 +487,7 @@ if(isset($_POST['add']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 

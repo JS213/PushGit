@@ -42,7 +42,7 @@ if(isset($_POST['send']))
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <!--	Css Link
 	========================================================-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -71,7 +71,7 @@ if(isset($_POST['send']))
 	</div>
 </div>
 --> 
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
@@ -97,7 +97,7 @@ if(isset($_POST['send']))
             </div>
         </div> -->
         <!--	Banner -->
-		<!-- FOR MORE PROJECTS visit: codeastro.com -->
+		<!-- Dev -->
         <!--	Contact Information -->
         <div class="full-row">
             <div class="container">
@@ -139,7 +139,7 @@ if(isset($_POST['send']))
 								<h2 class="text-secondary double-down-line text-center mb-5">Get In Touch</h2>
 								<?php echo $msg; ?><?php echo $error; ?>
 							</div>
-						</div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+						</div><!-- Dev -->
 						<div class="row">
 							<div class="col-md-12">
 								<form class="w-100" action="#" method="post">
@@ -172,7 +172,7 @@ if(isset($_POST['send']))
 					</div>
                 </div>
             </div>
-        </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+        </div><!-- Dev -->
         <!--	Contact Inforamtion -->
         
         <!--	Map -->

@@ -9,7 +9,7 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -65,7 +65,7 @@ include("config.php");
                     <div class="col-lg-12">
                         <div class="text-white">
                             <h1 class="mb-4"><span class="text-success">Let us</span><br>
-                            Guide you Home</h1><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            Guide you Home</h1><!-- Dev -->
                             <form method="post" action="propertygrid.php">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-2">
@@ -114,7 +114,7 @@ include("config.php");
         <div class="full-row bg-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    <div class="col-lg-12"><!-- Dev -->
                         <h2 class="text-secondary double-down-line text-center mb-5">What We Do</h2></div>
                 </div>
                 <div class="text-box-one">
@@ -168,7 +168,7 @@ include("config.php");
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
                         </ul>
                     </div> --->
-                    <div class="col-md-12"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                    <div class="col-md-12"><!-- Dev -->
                         <div class="tab-content mt-4" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
                                 <div class="row">
@@ -178,7 +178,7 @@ include("config.php");
 										{
 									?>
 								
-                                    <div class="col-md-6 col-lg-4"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                    <div class="col-md-6 col-lg-4"><!-- Dev -->
                                         <div class="featured-thumb hover-zoomer mb-4">
                                             <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
                                                 <div class="featured bg-success text-white">New</div>
@@ -370,7 +370,7 @@ include("config.php");
                 <div class="row">
                     <div class="col-lg-12">
                         <h2 class="text-secondary double-down-line text-center mb-5">Popular Places</h2></div>
-                </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                </div><!-- Dev -->
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 pb-1">
@@ -387,7 +387,7 @@ include("config.php");
 												echo $total;?> Properties Listed</span> </div>
 									<?php } ?>
                             </div>
-                        </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                        </div><!-- Dev -->
                         <div class="col-md-6 col-lg-3 pb-1">
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
@@ -403,7 +403,7 @@ include("config.php");
 									<?php } ?>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 pb-1"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                        <div class="col-md-6 col-lg-3 pb-1"><!-- Dev -->
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
@@ -432,7 +432,7 @@ include("config.php");
 												echo $total;?> Properties Listed</span> </div>
 									<?php } ?>
                             </div>
-                        </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                        </div><!-- Dev -->
                     </div>
                 </div>
             </div>

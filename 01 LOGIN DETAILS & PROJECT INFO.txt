@@ -1,4 +1,4 @@
-**Log on to codeastro.com for more projects!***
+**Log on to <!-- Dev -->.com for more projects!***
 
 **Database Name: realestatephp**
 

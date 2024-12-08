@@ -4,7 +4,7 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 ///code								
-?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+?><!-- Dev -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@ include("config.php");
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
-<!-- FOR MORE PROJECTS visit: codeastro.com -->
+<!-- Dev -->
 <!--	Fonts
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@ include("config.php");
         <!--	Header start  -->
 		<?php include("include/header.php");?>
         <!--	Header end  -->
-        <!-- FOR MORE PROJECTS visit: codeastro.com -->
+        <!-- Dev -->
         <!--	Banner   --->
         <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
@@ -103,7 +103,7 @@ include("config.php");
                                         <div class="sale bg-success text-white">For <?php echo $row['5'];?></div>
                                         <div class="price text-primary text-capitalize">$<?php echo $row['13'];?> <span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
                                         
-                                    </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                    </div><!-- Dev -->
                                     <div class="featured-thumb-data shadow-one">
                                         <div class="p-4">
                                             <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
@@ -115,7 +115,7 @@ include("config.php");
                                     </div>
                                 </div>
                             </div>
-                            <?php } ?><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            <?php } ?><!-- Dev -->
                             
 
                             
@@ -144,7 +144,7 @@ include("config.php");
                             <div class="input-group mb-2 mr-sm-2">
                                 <div class="input-group-prepend">
                                     <div class="input-group-text">$</div>
-                                </div><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                                </div><!-- Dev -->
                                 <input type="text" class="form-control" name="amount" placeholder="Property Price">
                             </div>
                             <label class="sr-only">Month</label>
@@ -184,7 +184,7 @@ include("config.php");
                         
                         <div class="sidebar-widget mt-5">
                             <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Recently Added Property</h4>
-                            <ul class="property_list_widget"><!-- FOR MORE PROJECTS visit: codeastro.com -->
+                            <ul class="property_list_widget"><!-- Dev -->
 							
 								<?php 
 								$query=mysqli_query($con,"SELECT * FROM `property` ORDER BY date DESC LIMIT 6");
