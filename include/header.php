@@ -76,7 +76,7 @@ $conn->close();
 
                             <!-- Submit Property Button (Only for Agents) -->
                             <?php if ($utype === 'agent') { ?>
-                                <a class="btn btn-success d-none d-xl-block" 
+                                <a class="btn btn-info d-none d-xl-block" 
                                    style="border-radius:30px;" 
                                    href="submitproperty.php">
                                     Submit Property

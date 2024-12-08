@@ -13,16 +13,16 @@ if(!isset($_SESSION['auser']))
 				<!-- Logo -->
                 <div class="header-left">
                     <a href="dashboard.php" class="logo">
-						<img src="assets/img/rsadmin.png" alt="Logo">
+						<img src="assets/img/4real_state_small.png" alt="Logo">
 					</a>
 					<a href="dashboard.php" class="logo logo-small">
-						<img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+						<img src="assets/img/4real_state.png" alt="Logo" width="30" height="30">
 					</a>
                 </div>
 				<!-- /Logo -->
 				
 				<a href="javascript:void(0);" id="toggle_btn">
-					<i class="fe fe-text-align-left"></i>
+					<i class="fe fe-text-align-left" style="color: black;"></i>
 				</a>
 				
 
