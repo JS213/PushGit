@@ -25,7 +25,7 @@ include("config.php");
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
 <!-- Css Link -->
-<!-- Dev -->
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
@@ -49,7 +49,7 @@ include("config.php");
 	  </div>
 	</div>
 </div> -->
-<!-- Dev -->
+
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
@@ -75,7 +75,7 @@ include("config.php");
             </div>
         </div> -->
          <!--	Banner   --->
-		 <!-- Dev -->
+		 
         <!--	About Our Company -->
         <div class="full-row">
             <div class="container">
@@ -116,7 +116,7 @@ include("config.php");
         <!-- Scroll to top --> 
         <a href="#" class="bg-secondary text-white hover-text-secondary" id="scroll"><i class="fas fa-angle-up"></i></a> 
         <!-- End Scroll To top --> 
-    </div><!-- Dev -->
+    </div>
 </div>
 <!-- Wrapper End --> 
 

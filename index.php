@@ -9,7 +9,7 @@ include("config.php");
 <html lang="en">
 
 <head>
-<!-- Dev -->
+
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -116,7 +116,7 @@ include("config.php");
         <div class="full-row bg-gray">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12"><!-- Dev -->
+                    <div class="col-lg-12">
                         <h2 class="text-secondary double-down-line text-center mb-5">What We Do</h2></div>
                 </div>
                 <div class="text-box-one">
@@ -170,7 +170,7 @@ include("config.php");
                             <li class="nav-item"> <a class="nav-link py-3" id="pills-contact-tab3" data-toggle="pill" href="#pills-resturant" role="tab" aria-controls="pills-contact" aria-selected="false">Best Sale</a> </li>
                         </ul>
                     </div> --->
-                    <div class="col-md-12"><!-- Dev -->
+                    <div class="col-md-12">
                         <div class="tab-content mt-4" id="pills-tabContent">
                             <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home">
                                 <div class="row">
@@ -180,7 +180,7 @@ include("config.php");
 										{
 									?>
 								
-                                    <div class="col-md-6 col-lg-4"><!-- Dev -->
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="featured-thumb hover-zoomer mb-4">
                                             <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
                                                 <div class="featured bg-danger text-white">New</div>
@@ -366,80 +366,6 @@ include("config.php");
             </div>
         </div>
         
-        <!--	Popular Place -->
-        <div class="full-row bg-gray">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h2 class="text-secondary double-down-line text-center mb-5">Popular Places</h2></div>
-                </div><!-- Dev -->
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
-                                <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
-									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Olisphis'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                    <h4 class="hover-text-dangers text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
-                                    <span><?php 
-												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
-									<?php } ?>
-                            </div>
-                        </div><!-- Dev -->
-                        <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
-                                <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
-									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Awrerton'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                    <h4 class="hover-text-success text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
-                                    <span><?php 
-												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
-									<?php } ?>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 pb-1"><!-- Dev -->
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
-                                <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
-                                    <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Floson'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                    <h4 class="hover-text-success text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
-                                    <span><?php 
-												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
-									<?php } ?>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-3 pb-1">
-                            <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
-                                <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
-                                    <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Ulmore'");
-											while($row=mysqli_fetch_array($query))
-												{
-										?>
-                                    <h4 class="hover-text-success text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
-                                    <span><?php 
-												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
-									<?php } ?>
-                            </div>
-                        </div><!-- Dev -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--	Popular Places -->
 		
 		<!--	Testonomial -->
 		<div class="full-row">

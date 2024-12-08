@@ -4,7 +4,7 @@ session_cache_limiter(false);
 session_start();
 include("config.php");
 ///code								
-?><!-- Dev -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@ include("config.php");
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
-<!-- Dev -->
+
 <!--	Fonts
 	========================================================-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
@@ -60,7 +60,7 @@ include("config.php");
         <!--	Header start  -->
 		<?php include("include/header.php");?>
         <!--	Header end  -->
-        <!-- Dev -->
+        
         <!--	Banner   --->
         <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
             <div class="container">
@@ -106,7 +106,7 @@ include("config.php");
                                         <div class="status bg-success text-white text-capitalize">
                                             <?php echo $row['status']; ?> 
                                         </div>
-                                    </div><!-- Dev -->
+                                    </div>
                                     <div class="featured-thumb-data shadow-one">
                                         <div class="p-4">
                                             <h5 class="text-secondary hover-text-success mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
@@ -119,7 +119,7 @@ include("config.php");
                                 </div>
                             </div>
 
-                            <?php } ?><!-- Dev -->
+                            <?php } ?>
                             
 
                             
@@ -188,7 +188,7 @@ include("config.php");
                         
                         <div class="sidebar-widget mt-5">
                             <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4">Recently Added Property</h4>
-                            <ul class="property_list_widget"><!-- Dev -->
+                            <ul class="property_list_widget">
 							
 								<?php 
 								$query=mysqli_query($con,"SELECT * FROM `property` ORDER BY date DESC LIMIT 6");

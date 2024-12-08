@@ -6,7 +6,7 @@ include("config.php");
 
 ///search code
 	
-?><!-- Dev -->
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,7 +69,7 @@ include("config.php");
                 <div class="row">
                     <div class="col-md-6">
                         <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Filter Property</b></h2>
-                    </div><!-- Dev -->
+                    </div>
                     <div class="col-md-6">
                         <nav aria-label="breadcrumb" class="float-left float-md-right">
                             <ol class="breadcrumb bg-transparent m-0 p-0">
@@ -91,7 +91,7 @@ include("config.php");
 				
 					<div class="col-lg-8">
                         <div class="row">
-						<!-- Dev -->
+						
 							<?php 
 							
 							if(isset($_REQUEST['filter']))
@@ -131,7 +131,7 @@ include("config.php");
                                         </div>
                                     </div>
                                 </div>
-                            </div><!-- Dev -->
+                            </div>
                             <?php 		
 										} 
 					
@@ -163,7 +163,7 @@ include("config.php");
                                 </nav>
                             </div>  -->
                         </div>
-                    </div><!-- Dev -->
+                    </div>
 					
                     <div class="col-lg-4">
                         <div class="sidebar-widget">

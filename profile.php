@@ -171,7 +171,7 @@ if(isset($_POST['insert']))
             </div>
         </div>
 	<!--	Submit property   -->
-      <!-- Dev -->  
+        
         
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
@@ -183,7 +183,7 @@ if(isset($_POST['insert']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- Dev -->
+
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 

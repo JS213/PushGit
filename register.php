@@ -46,7 +46,7 @@ if(isset($_REQUEST['reg']))
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<!-- Dev -->
+
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
@@ -97,7 +97,7 @@ if(isset($_REQUEST['reg']))
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
-        <!--	Header end  --><!-- Dev -->
+        <!--	Header end  -->
         
         <!--	Banner   --->
         <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
@@ -187,7 +187,7 @@ if(isset($_REQUEST['reg']))
 								
 								<div class="text-center dont-have">Already have an account? <a href="login.php">Login</a></div>
 								
-							</div><!-- Dev -->
+							</div>
                         </div>
                     </div>
                 </div>

@@ -200,7 +200,7 @@ if(isset($_POST['add']))
 													</div>
 												</div>
 												
-											</div><!-- Dev -->
+											</div>
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Property Type</label>
@@ -240,7 +240,7 @@ if(isset($_POST['add']))
 												</div>
 												
 											</div>   
-											<div class="col-xl-6"><!-- Dev -->
+											<div class="col-xl-6">
 												<div class="form-group row mb-3">
 													<label class="col-lg-3 col-form-label">BHK</label>
 													<div class="col-lg-9">
@@ -312,7 +312,7 @@ if(isset($_POST['add']))
 														<input type="text" class="form-control" name="state" required value="<?php echo $row['16']; ?>">
 													</div>
 												</div>
-											</div><!-- Dev -->
+											</div>
 											<div class="col-xl-6">
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Total Floor</label>
@@ -367,7 +367,7 @@ if(isset($_POST['add']))
 										</div>
 												
 										<h5 class="text-secondary">Image & Status</h5><hr>
-										<div class="row"><!-- Dev -->
+										<div class="row">
 											<div class="col-xl-6">
 												
 												<div class="form-group row">
@@ -424,7 +424,7 @@ if(isset($_POST['add']))
 														<input class="form-control" name="aimage3" type="file" required="">
 														<img src="admin/property/<?php echo $row['21'];?>" alt="pimage" height="150" width="180">
 													</div>
-												</div><!-- Dev -->
+												</div>
 												
 												<div class="form-group row">
 													<label class="col-lg-3 col-form-label">Floor Plan Image</label>
@@ -457,7 +457,7 @@ if(isset($_POST['add']))
         </div>
 	<!--	Submit property   -->
         
-        <!-- Dev -->
+        
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
 		<!--	Footer   start-->
@@ -468,7 +468,7 @@ if(isset($_POST['add']))
     </div>
 </div>
 <!-- Wrapper End --> 
-<!-- Dev -->
+
 <!--	Js Link
 ============================================================--> 
 <script src="js/jquery.min.js"></script> 
