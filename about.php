@@ -68,9 +68,7 @@ include("config.php");
                             <?php echo $row['2'];?>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-5 mt-5">
-                        <div class="about-img"> <img src="admin/upload/<?php echo $row['3'];?>" alt="about image"> </div>
-                    </div>
+                    
                 </div>
 				
 				<?php } ?>
