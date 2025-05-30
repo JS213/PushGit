@@ -62,7 +62,6 @@ if(isset($_REQUEST['login']))
 
 <!--	Title
 	=========================================================-->
-<title>4Real State - Login</title>
 </head>
 <body>
 <div id="page-wrapper">
